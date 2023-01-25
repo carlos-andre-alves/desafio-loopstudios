@@ -7,8 +7,14 @@
     div.conteudo2{
         grid-template-columns: 210px 210px;
     }
+    div#conteudo1  h2{
+        font-size: 2rem;
+    }
+    div#conteudo1  p{
+        font-size: 0.8rem;
+    }
     div.redes  {
-        
+
         margin: -85px 3vw 0 2vw;
      }
 }
