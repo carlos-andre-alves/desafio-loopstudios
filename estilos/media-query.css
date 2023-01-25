@@ -10,7 +10,8 @@
     }
     div#fundo{
         background-color: rgba(0, 0, 0, 0.205);
-        margin-top: -20px;
+        padding: 20px;
+        height: 96%;
      }
     i{
         display: inline;
