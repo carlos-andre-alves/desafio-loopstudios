@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and(max-width: 768px){
+    
+}
+@media screen and (min-width: 769px) and (max-width: 950px){
+    div.conteudo2{
+        grid-template-columns: 210px 210px;
+    }
+    div.redes  {
+        
+        margin: -85px 3vw 0 2vw;
+     }
+}
+@media screen and (min-width: 951px){
+    div.conteudo2{
+        grid-template-columns: 210px 210px 210px;
+    }
+}
+
+@media screen and (min-width: 1172px){
+    div.conteudo2{
+        grid-template-columns: 210px 210px 210px 210px;
+    }
+}

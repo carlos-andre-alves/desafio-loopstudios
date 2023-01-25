@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+                                              /*HEADER*/
+
+header{
+    background: url('../images/desktop/image-hero.jpg') center center /cover no-repeat ;
+    height: 95vh;
+    padding-top: 20px;
+}
+div#fundo{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.205);
+    height: 98.4vh;
+    margin-top: -20px;
+}
+nav#nav1{
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    color: #c5c5c5;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.2em;
+    margin: 8vh 0 0 12vw;
+}
+nav#nav1 > ul{
+    margin: 10vh 3vw 0px 0px;
+}
+nav#nav1 > ul > li {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0px 5px 0px 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #c5c5c5;
+}
+nav#nav1  a{
+    text-decoration: none;
+    display: inline;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #c5c5c5;
+    padding: 0 10px;
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+
+nav#nav1 a::after{
+    content: '';
+    position: absolute;
+    background-color: #c5c5c5;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: all .5s ease-in-out;
+}
+nav#nav1 a:hover::after{
+    width: 100%;
+    transition: all .5s ease-out;
+}
+div#conteudo0{
+    margin-left: 12vw;
+    margin-top: 14vh;
+    width: 605px;
+    height: 250px;
+    border: 2px solid #c5c5c5;
+}
+div#conteudo0 > p{
+    color: #c5c5c5;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 4.2em;
+    margin: 26px 0px 0px 36px;
+}
+                                                   
+                                                  /*HEADER*/
+
+                                                  /*MAIN*/
+
+div#imagem{
+    display: inline-block;
+    background: url('../images/desktop/image-interactive.jpg') center center /cover no-repeat;
+    height: 73vh;
+    width: 51vw;
+    margin: 17vh 0 0 12vw;
+}
+div#conteudo1{
+    display: inline-block;
+    background-color: white;
+    height: 51vh;
+    width: 34vw;
+    position: absolute;
+    top: 137%;
+    left: 51%;
+    padding: 5vh 0 0 6vw;
+}
+div#conteudo1  h2{
+    color: rgb(39, 39, 39);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.8rem;
+}
+div#conteudo1  p{
+    color: #838282;
+    font-family: 'Josefin Sans',sans-serif;
+    line-height: 1.2rem;
+    text-align: justify;
+}
+div#ourscreation{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 12vw 80px 12vw;
+}
+div#ourscreation h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(37, 37, 37);
+    font-size: 2.5rem;
+}
+div#ourscreation p{
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    border: 2px solid black;
+    padding: 15px 35px 10px 35px;
+    align-self: center;
+    transition: all .5s ease;
+}
+div#ourscreation p:hover{
+    background-color: black;
+    color: white;
+    padding: 17px 40px 12px 40px;
+    transition: all .5s ease;
+}
+
+                                               /*GRID*/
+
+div.conteudo2{
+    
+
+    display: grid;
+    grid-template-rows: 425px 425px;
+    grid-template-columns: 210px 210px 210px 210px;
+    gap: 50px;
+    align-content: center;
+    justify-content: center;
+    
+} 
+div.itens{
+     height: 430px;
+     width: 225px;
+     cursor: pointer;
+     transition: all .5s ease;
+}   
+div.itens:hover{
+    transition: all .5s ease;
+    transform: translate(0, -38px);
+}
+div.itens p{
+     padding: 351px 25px 25px 30px;
+     margin-top: 0px;
+     font-family: 'Josefin Sans', sans-serif;
+     font-weight: 300;
+     color: #c5c5c5;
+     font-size: 1.8rem;
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.637), transparent);
+     height: 53.1px;
+     width: 170px;
+}
+
+div#iten1{
+    background: url('../images/desktop/image-deep-earth.jpg') center center /cover no-repeat;
+}       
+div#iten2{
+    background: url('../images/desktop/image-night-arcade.jpg') center center /cover no-repeat;
+}        
+div#iten3{
+    background: url('../images/desktop/image-soccer-team.jpg') center center /cover no-repeat;
+}                
+div#iten4{
+    background: url('../images/desktop/image-grid.jpg') center center /cover no-repeat;
+}       
+div#iten5{
+    background: url('../images/desktop/image-from-above.jpg') center center /cover no-repeat;
+}       
+div#iten6{
+    background: url('../images/desktop/image-pocket-borealis.jpg') center center /cover no-repeat;
+}       
+div#iten7{
+    background: url('../images/desktop/image-curiosity.jpg') center center /cover no-repeat;
+}       
+div#iten8{
+    background: url('../images/desktop/image-fisheye.jpg') center center /cover no-repeat;
+}       
+
+                                          /*GRID*/
+                                          /*MAIN*/
+                                          
+                                          /*FOOTER*/
+
+footer{
+    height: 250px;
+    background-color: black;
+    margin-top: 150px;
+    color: #c5c5c5;
+}
+footer  h2{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.2em;
+    margin: 8vh 0 0 8vw;
+    padding-top: 60px;
+}
+nav#nav2 > ul{
+    margin: 55px 0 0 3.8vw;
+}
+nav#nav2 > ul > li{
+    display: inline;
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+div.redes  {
+   text-align: right;
+   margin: -85px 7vw 0 2vw;
+}
+div.redes > img{
+    padding: 10px;
+}
