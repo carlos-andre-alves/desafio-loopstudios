@@ -10,7 +10,6 @@
     }
     div#fundo{
         background-color: rgba(0, 0, 0, 0.205);
-        
         margin-top: -20px;
      }
     i{
@@ -26,20 +25,20 @@
         color: white;
         font-family: 'Josefin Sans', sans-serif;
         font-size: 2.2em;
-        margin: 8vh 0 0 12vw;
+        margin: 45px 0 0 30px;
     }
     div#conteudo0{
-        margin-left: 63px;
-        margin-top: 63vh;
-        width: 440.8px;
-        height: 213px;
+        margin-left: 32px;
+        margin-top: 22vh;
+        width: 367.8px;
+        height: 201px;
         border: 2px solid white;
     }
     div#conteudo0 > p{
         color: white;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 300;
-        font-size: 3.4em;
+        font-size: 2.8em;
         margin: 32px 0px 0px 31px;
     }
     
