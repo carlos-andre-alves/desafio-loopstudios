@@ -10,18 +10,20 @@
    
     <title>loopstudios</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
        <div id="fundo">
       <nav id="nav1">
          <h1>loopstudios</h1>
-         <i class="fa-solid fa-bars"></i>
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Login</a></li>
+         <i id="menu" class="fa-solid fa-bars" onclick="clickMenu()"></i>
+          <ul id="itens">
+                  <h2>loopstudios</h2>
+            <i id="menu, menu2" class="fa-solid fa-bars,n"  onclick="clickMenu()"></i>
+            <li><a href="#" class="efeito">About</a></li>
+            <li><a href="#" class="efeito">Events</a></li>
+            <li><a href="#" class="efeito">Products</a></li>
+            <li><a href="#" class="efeito">Support</a></li>
+            <li><a href="#" class="efeito">Login</a></li>
           </ul>
        </nav> 
       <div id="conteudo0">
@@ -97,4 +99,22 @@
     </footer>
 </body>
 <script src="https://kit.fontawesome.com/0c44fa03f6.js" crossorigin="anonymous"></script>
+<script>
+   function mudouTamanho(){ 
+       if (window.innerWidth >= 768){
+           itens.style.display = 'inline'
+       } else{
+           itens.style.display = 'none'
+       } 
+
+   }
+   
+   function clickMenu(){
+       if (itens.style.display == 'inline') {
+           itens.style.display = 'none'
+       } else{
+           itens.style.display = 'inline'
+       }
+   }
+</script>
 </html>

@@ -8,6 +8,9 @@ body, html{
     box-sizing: border-box;
     height: 100vh;
 }
+a{
+    text-decoration: none;
+}
                                               /*HEADER*/
 
 header{
@@ -15,6 +18,8 @@ header{
     height: 95vh;
     padding-top: 20px;
 }
+
+
 div#fundo{
     display: block;
     background-color: rgba(0, 0, 0, 0.205);
@@ -31,8 +36,11 @@ header h1{
     font-size: 2.2em;
     margin: 8vh 0 0 12vw;
 }
-i{
+header h2{
     display: none;
+}
+.n{
+    displa
 }
 nav#nav1 > ul{
     margin: 10vh 3vw 0px 0px;
@@ -44,7 +52,7 @@ nav#nav1 > ul > li {
     font-family: 'Josefin Sans', sans-serif;
     color: #c5c5c5;
 }
-nav#nav1  a{
+nav#nav1  a.efeito{
     text-decoration: none;
     display: inline;
     font-family: 'Josefin Sans', sans-serif;
@@ -54,7 +62,7 @@ nav#nav1  a{
     transition: all 1s ease-in-out;
 }
 
-nav#nav1 a::after{
+nav#nav1 a.efeito::after{
     content: '';
     position: absolute;
     background-color: #c5c5c5;
@@ -64,9 +72,13 @@ nav#nav1 a::after{
     bottom: -10px;
     transition: all .5s ease-in-out;
 }
-nav#nav1 a:hover::after{
+nav#nav1 a.efeito:hover::after{
     width: 100%;
     transition: all .5s ease-out;
+}
+#menu2{
+    display: none;
+    
 }
 div#conteudo0{
     margin-left: 12vw;

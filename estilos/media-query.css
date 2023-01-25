@@ -13,20 +13,57 @@
         padding: 20px;
         height: 96%;
      }
-    i{
+    i,.n{
         display: inline;
         color: white;
-        margin: 45px 43px 0 0;
+        margin: 45px 43px 0 178px;
         font-size: 2em;
     }
-    nav#nav1 ul,li{
-        display: none;
+    .menu2,.n{
+        height: 30px;
+        width: 30px;
+        display: inline;
     }
+    .menu2 i,.n{
+        margin: -33px 0 0px 422px;
+        padding-bottom: 20px;
+    }
+    nav#nav1{
+        position: relative;
+    }
+    nav#nav1 ul{
+        background-color: black;
+        width: 100vw;
+        height: 96vh;
+        position: absolute;
+        top: -22px;
+        left: -22px;
+        margin: 0;
+        padding: 0;
+        
+    }
+    nav#nav1 ul,li{
+        
+    
+    }
+    nav#nav1 >ul > li, a.efeito{
+        display: block;
+    }
+
+
     header h1{
         color: white;
         font-family: 'Josefin Sans', sans-serif;
         font-size: 2.2em;
         margin: 45px 0 0 30px;
+        display: inline;
+    }
+    header h2{
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2.2em;
+        display: inline;
+        margin: 0 0 0 47px;
     }
     div#conteudo0{
         margin-left: 32px;
@@ -42,7 +79,10 @@
         font-size: 2.2em;
         margin: 32px 0px 0px 31px;
     }
-    
+    i#menu{
+        display: block;
+    }
+
 }
 @media screen and (min-width: 769px) and (max-width: 950px){
     div.conteudo2{
