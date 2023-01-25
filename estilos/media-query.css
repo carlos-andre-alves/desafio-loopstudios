@@ -7,6 +7,11 @@
     div.conteudo2{
         grid-template-columns: 210px 210px;
     }
+    div#conteudo1{
+        height: 60vh;
+        top: 157%;
+        left: 51%;
+    }
     div#conteudo1  h2{
         font-size: 2rem;
     }
@@ -14,7 +19,6 @@
         font-size: 0.8rem;
     }
     div.redes  {
-
         margin: -85px 3vw 0 2vw;
      }
 }
