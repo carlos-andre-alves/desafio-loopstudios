@@ -1,6 +1,45 @@
 @charset "UTF-8";
 
-@media screen and(max-width: 768px){
+@media screen and (min-width: 0px) and (max-width: 768px){
+    header{
+        background: url('../images/mobile/image-hero.jpg') center center /contain no-repeat ;
+        
+        position: relative;
+    }
+    div#fundo{
+        background-color: rgba(0, 0, 0, 0.205);
+        height: 100h;
+        margin-top: -20px;
+     }
+    i{
+        display: inline;
+        color: white;
+        margin: 50px 100px 0 0;
+        font-size: 2em;
+    }
+    nav#nav1 ul,li{
+        display: none;
+    }
+    header h1{
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2.2em;
+        margin: 8vh 0 0 12vw;
+    }
+    div#conteudo0{
+        margin-left: 15vw;
+        margin-top: 23vh;
+        width: 329px;
+        height: 173px;
+        border: 2px solid white;
+    }
+    div#conteudo0 > p{
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        font-size: 2.5em;
+        margin: 25px 0px 0px 26px;
+    }
     
 }
 @media screen and (min-width: 769px) and (max-width: 950px){

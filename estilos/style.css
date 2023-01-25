@@ -31,6 +31,9 @@ header h1{
     font-size: 2.2em;
     margin: 8vh 0 0 12vw;
 }
+i{
+    display: none;
+}
 nav#nav1 > ul{
     margin: 10vh 3vw 0px 0px;
 }
