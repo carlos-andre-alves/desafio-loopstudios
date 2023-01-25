@@ -2,8 +2,10 @@
 
 @media screen and (min-width: 0px) and (max-width: 768px){
     header{
-        background: url('../images/mobile/image-hero.jpg') center center /contain no-repeat ;
-        
+        background: url('../images/mobile/image-hero.jpg') center center /cover no-repeat ;
+        width: 100%;
+        height: 1300px;
+        padding-top: 20px;
         position: relative;
     }
     div#fundo{
@@ -14,7 +16,7 @@
     i{
         display: inline;
         color: white;
-        margin: 50px 100px 0 0;
+        margin: 45px 43px 0 0;
         font-size: 2em;
     }
     nav#nav1 ul,li{
@@ -27,18 +29,18 @@
         margin: 8vh 0 0 12vw;
     }
     div#conteudo0{
-        margin-left: 15vw;
-        margin-top: 23vh;
-        width: 329px;
-        height: 173px;
+        margin-left: 63px;
+        margin-top: 63vh;
+        width: 440.8px;
+        height: 213px;
         border: 2px solid white;
     }
     div#conteudo0 > p{
         color: white;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 300;
-        font-size: 2.5em;
-        margin: 25px 0px 0px 26px;
+        font-size: 3.4em;
+        margin: 32px 0px 0px 31px;
     }
     
 }
