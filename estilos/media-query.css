@@ -31,15 +31,15 @@
     div#conteudo0{
         margin-left: 32px;
         margin-top: 22vh;
-        width: 367.8px;
-        height: 201px;
+        width: 329.8px;
+        height: 169px;
         border: 2px solid white;
     }
     div#conteudo0 > p{
         color: white;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 300;
-        font-size: 2.8em;
+        font-size: 2.2em;
         margin: 32px 0px 0px 31px;
     }
     
