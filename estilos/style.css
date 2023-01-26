@@ -8,6 +8,7 @@ body, html{
     padding: 0;
     box-sizing: border-box;
     height: 100vh;
+    overflow-x: hidden !important;
 }
 a{
     text-decoration: none;
@@ -17,6 +18,7 @@ a{
 header{
     background: url('../images/desktop/image-hero.jpg') center center /cover no-repeat ;
     height: 95vh;
+    width: 100vw;
 }
 div.container{
     display: flex;

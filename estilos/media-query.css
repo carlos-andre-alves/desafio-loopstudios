@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
+
 @media screen and (min-width: 0px) and (max-width: 768px){
     
                       /*HEADER*/
     
+   
     header{
         background: url('../images/mobile/image-hero.jpg') center center /cover no-repeat ;
         height: 95vh;
-        width: 100vw;
         
     }
     header h1{
@@ -88,12 +89,12 @@
     }
     div#conteudo1{
         position: relative;
-        transform: translate(-48vw);
+        transform: translate(-50vw);
         display: block;
         margin: auto;
         background-color: white;
         height: 71px;
-        width: 300px;
+        width: 80%;
         padding: 0 0 0 0;
     }
     div#conteudo1  h2{
@@ -119,16 +120,17 @@
     div#ourscreation h2{
         font-size: 2rem;
         margin: auto;
+        margin-top: 80px;
     }
     #p1{
         display: none;
     }
     #p2{
+        text-align: center;
         display: block;
         width: 90px;
         height: 20px;
-        margin: 40px;
-        margin-left: 16%;
+        margin: 40px auto;
 
     }
     div.conteudo2{
@@ -136,7 +138,7 @@
 
         display: grid;
         grid-template-rows: 21.4vh;
-        grid-template-columns: 65vw;
+        grid-template-columns: 70%;
         gap: 50px;
         align-content: center;
         justify-content: center;
@@ -144,12 +146,11 @@
     } 
     div.itens{
          height: 21.7vh;
-         width: 65vw;
-         min-width: 60vw;
+         width: 100%; 
          cursor: pointer;
     }   
     div.itens p{
-         padding: 49px 25px 22px 22px;
+         padding: 8.6vh 25px 22px 22px;
 
     }
     
