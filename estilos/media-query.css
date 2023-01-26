@@ -12,6 +12,7 @@
     }
     header h1{
         padding: 60px 0px 0px 0px;
+        color: white;
     }
 
     .container{
@@ -62,18 +63,18 @@
         font-size: 1.2em;
     }
     div#conteudo0{
-        margin-left: 12vw;
+        margin-left: -5px;
         margin-top: 24vh;
-        width: 300px;
-        height: 150px;
-        border: 2px solid #c5c5c5;
+        width: 100%;
+        height: 172px;
+        border: 2px solid white;
     }
     div#conteudo0 > p{
-        color: #c5c5c5;
+        color: white;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 300;
-        font-size: 2em;
-        margin: 26px 0px 0px 36px;
+        font-size: 2.4em;
+        margin: 26px 0px 0px 20px;
     }
                            /*header*/
                            /*MAIN*/
@@ -86,35 +87,97 @@
         margin: 100px auto;
     }
     div#conteudo1{
+        position: relative;
         display: block;
-        height: 41.8vh;
-        width: 72.8vw;
-        position: absolute;
-        top: none;
-        left: 50%;
-        transform: translate(-50%);
-        margin: 172.4px 0 100px 0;
-        padding: 0;
-        text-align: center;
+        margin: auto;
+        background-color: white;
+        height: 500px;
+        width: 300px;
+        padding: 0 0 0 0;
     }
     div#conteudo1  h2{
         color: rgb(39, 39, 39);
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 300 bold;
-        font-size: 2.2rem;
+        font-size: 1.5em;
         margin: 0;
         padding: 0;
     }
     div#conteudo1  p{
         color: #838282;
         font-family: 'Josefin Sans',sans-serif;
-        line-height: 1.2rem;
+        line-height: 0.8rem;
         text-align: center;
         margin: 0;
         margin-top: 15px;
         padding: 0;
 
+    }                         /*GRID*/
+    
+    div#ourscreation h2{
+        font-size: 2rem;
+        margin: auto;
     }
+    #p1{
+        display: none;
+    }
+    #p2{
+        display: block;
+        width: 90px;
+        height: 20px;
+        margin: 40px;
+        margin-left: 16%;
+
+    }
+    div.conteudo2{
+    
+
+        display: grid;
+        grid-template-rows: 21.4vh;
+        grid-template-columns: 65vw;
+        gap: 50px;
+        align-content: center;
+        justify-content: center;
+        
+    } 
+    div.itens{
+         height: 21.7vh;
+         width: 65vw;
+         min-width: 60vw;
+         cursor: pointer;
+    }   
+    div.itens p{
+         padding: 49px 25px 22px 22px;
+
+    }
+    
+    div#iten1{
+        background: url('../images/mobile/image-deep-earth.jpg') center center /cover no-repeat;
+    }       
+    div#iten2{
+        background: url('../images/mobile/image-night-arcade.jpg') center center /cover no-repeat;
+    }        
+    div#iten3{
+        background: url('../images/mobile/image-soccer-team.jpg') center center /cover no-repeat;
+    }                
+    div#iten4{
+        background: url('../images/mobile/image-grid.jpg') center center /cover no-repeat;
+    }       
+    div#iten5{
+        background: url('../images/mobile/image-from-above.jpg') center center /cover no-repeat;
+    }       
+    div#iten6{
+        background: url('../images/mobile/image-pocket-borealis.jpg') center center /cover no-repeat;
+    }       
+    div#iten7{
+        background: url('../images/mobile/image-curiosity.jpg') center center /cover no-repeat;
+    }       
+    div#iten8{
+        background: url('../images/mobile/image-fisheye.jpg') center center /cover no-repeat;
+    }       
+    
+                                              /*GRID*/
+                                              /*MAIN*/
 }
 @media screen and (min-width: 769px) and (max-width: 950px){
     div.conteudo2{

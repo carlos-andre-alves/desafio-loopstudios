@@ -139,7 +139,7 @@ div#ourscreation h2{
     color: rgb(37, 37, 37);
     font-size: 2.5rem;
 }
-div#ourscreation p{
+p.seel{
     cursor: pointer;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
@@ -150,13 +150,15 @@ div#ourscreation p{
     align-self: center;
     transition: all .5s ease;
 }
-div#ourscreation p:hover{
+p.seel:hover{
     background-color: black;
     color: white;
     padding: 17px 40px 12px 40px;
     transition: all .5s ease;
 }
-
+#p2{
+    display: none;
+}
                                                /*GRID*/
 
 div.conteudo2{
@@ -190,6 +192,7 @@ div.itens p{
      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.637), transparent);
      height: 53.1px;
      width: 170px;
+     transition: all .5s ease;
 }
 
 div#iten1{
