@@ -3,7 +3,9 @@
 @media screen and (min-width: 0px) and (max-width: 768px){
     
                       /*HEADER*/
-    
+    html, body{
+        overflow-x: hidden !important;
+    }
     header{
         background: url('../images/mobile/image-hero.jpg') center center /cover no-repeat ;
         height: 95vh;
@@ -198,20 +200,31 @@ footer  h2{
     text-align: center;
 }
 nav#nav2 > ul{
-    margin: 55px 0 0 3.8vw;
+    margin: 55px 0 0 0;
+    
+    padding: 0;
 }
 nav#nav2 > ul > li{
     display: block;
-    margin-left: 40%;
-    margin-bottom: 40px;
+    margin-left: 0;
+    margin-bottom: 20px;
     font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
 }
 div.redes  {
-   text-align: right;
-   margin: 0px 7vw 0 2vw;
+   text-align: center;
+   margin: 0px 0 0 0;
 }
 div.redes > img{
     padding: 10px;
+}
+p#rodape{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7em;
+    text-align: center;
+    margin-top: 69px;
 }
 }
 @media screen and (min-width: 769px) and (max-width: 950px){
