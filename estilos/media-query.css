@@ -4,6 +4,7 @@
     header{
         background: url('../images/mobile/image-hero.jpg') center center /cover no-repeat ;
         height: 95vh;
+        width: 100vw;
         
     }
     header h1{
@@ -25,7 +26,7 @@
         display: block;
         color: white;
         font-size: 2em;
-        margin: 0 17.5vw 0 0;
+        margin: 0 14vw 0 0;
         padding-top: 60px;
         cursor: pointer;
     }
@@ -60,7 +61,7 @@
     div#conteudo0{
         margin-left: 12vw;
         margin-top: 24vh;
-        width: 66vw;
+        width: 69vw;
         height: 31vh;
         border: 2px solid #c5c5c5;
     }
@@ -68,7 +69,7 @@
         color: #c5c5c5;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 300;
-        font-size: 2.4em;
+        font-size: 6.3vh;
         margin: 26px 0px 0px 36px;
     }
 
