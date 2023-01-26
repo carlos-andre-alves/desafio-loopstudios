@@ -6,6 +6,9 @@
         height: 95vh;
         
     }
+    .container{
+        position: relative;
+    }
     #menu{
         display: block;
         color: white;
@@ -13,8 +16,34 @@
         margin: 60px 11vw 0 0;
         cursor: pointer;
     }
+
     nav#itens{
         display: none;
+
+        background-color: black;
+        width: 100vw;
+        height: 96vh;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .container2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .container2 h1{
+        display: block;
+    }
+    nav.nav1 > ul{
+        margin: 9vh 0 0 11vw;
+    }
+    nav#itens.nav1 > ul > li{
+        display: block;
+        margin: 0 0 0 0;
+        padding: 40px 0 0 0;
+        font-size: 1.2em;
     }
     div#conteudo0{
         margin-left: 12vw;

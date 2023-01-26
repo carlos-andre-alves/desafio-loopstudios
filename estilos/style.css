@@ -39,6 +39,9 @@ header h1{
     margin: 0 0 0 12vw;
     padding: 11vh 0 0 0;
 }
+.container2 h1{
+    display: none;
+}
 nav.nav1 > ul{
     margin: 0 0 0 0px;
     padding: 0 0 0 0;
