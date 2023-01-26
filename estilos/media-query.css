@@ -67,7 +67,7 @@
     div#conteudo0{
         margin-left: -5px;
         margin-top: 24vh;
-        width: 100%;
+        width: 101%;
         height: 172px;
         border: 2px solid white;
     }
@@ -90,7 +90,7 @@
     }
     div#conteudo1{
         position: relative;
-        transform: translate(-48vw);
+        transform: translate(-50vw);
         display: block;
         margin: auto;
         background-color: white;
@@ -129,8 +129,7 @@
         display: block;
         width: 90px;
         height: 20px;
-        margin: 40px;
-        margin-left: 16%;
+        margin: 40px auto 0 auto;
 
     }
     div.conteudo2{
@@ -186,7 +185,7 @@
                                               /*FOOTER*/
 
 footer{
-    height: 500px;
+    height: 450px;
     background-color: black;
     margin-top: 150px;
     color: #c5c5c5;
@@ -201,7 +200,6 @@ footer  h2{
 }
 nav#nav2 > ul{
     margin: 55px 0 0 0;
-    
     padding: 0;
 }
 nav#nav2 > ul > li{
@@ -224,10 +222,24 @@ p#rodape{
     font-family: Arial, Helvetica, sans-serif;
     font-size: .7em;
     text-align: center;
-    margin-top: 69px;
+    margin-top: 7px;
 }
 }
 @media screen and (min-width: 769px) and (max-width: 950px){
+    div#conteudo0{
+        margin-left: 12vw;
+        margin-top: 13vh;
+        width: 605px;
+        height: 253px;
+        border: 2px solid #c5c5c5;
+    }
+    div#conteudo0 > p{
+        color: #c5c5c5;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        font-size: 4.2em;
+        margin: 26px 0px 0px 36px;
+    }
     div.conteudo2{
         grid-template-columns: 210px 210px;
     }
