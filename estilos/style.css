@@ -8,7 +8,6 @@ body, html{
     padding: 0;
     box-sizing: border-box;
     height: 100vh;
-    overflow-x: hidden !important;
 }
 a{
     text-decoration: none;

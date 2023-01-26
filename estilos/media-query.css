@@ -181,6 +181,39 @@
     
                                               /*GRID*/
                                               /*MAIN*/
+                                            
+                                              /*FOOTER*/
+
+footer{
+    height: 500px;
+    background-color: black;
+    margin-top: 150px;
+    color: #c5c5c5;
+}
+footer  h2{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.2em;
+    margin: 8vh 0 0 0;
+    padding-top: 60px;
+    text-align: center;
+}
+nav#nav2 > ul{
+    margin: 55px 0 0 3.8vw;
+}
+nav#nav2 > ul > li{
+    display: block;
+    margin-left: 40%;
+    margin-bottom: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+div.redes  {
+   text-align: right;
+   margin: 0px 7vw 0 2vw;
+}
+div.redes > img{
+    padding: 10px;
+}
 }
 @media screen and (min-width: 769px) and (max-width: 950px){
     div.conteudo2{
