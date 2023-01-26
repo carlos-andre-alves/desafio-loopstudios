@@ -6,10 +6,14 @@
         height: 95vh;
         
     }
-    i#menu{
+    #menu{
         display: block;
+        color: white;
+        font-size: 2em;
+        margin: 60px 11vw 0 0;
+        cursor: pointer;
     }
-    nav#nav1{
+    nav#itens{
         display: none;
     }
     div#conteudo0{
