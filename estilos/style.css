@@ -17,7 +17,6 @@ a{
 header{
     background: url('../images/desktop/image-hero.jpg') center center /cover no-repeat ;
     height: 95vh;
-    width: 100vw;
 }
 div.container{
     display: flex;
