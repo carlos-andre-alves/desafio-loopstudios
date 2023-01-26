@@ -16,29 +16,32 @@ a{
 header{
     background: url('../images/desktop/image-hero.jpg') center center /cover no-repeat ;
     height: 95vh;
-    padding-top: 20px;
 }
-
-
+div.container{
+    display: flex;
+    justify-content: space-between;
+}
+i#menu{
+    display: none;
+}
 div#fundo{
     display: block;
     background-color: rgba(0, 0, 0, 0.205);
-    height: 98.4vh;
-    margin-top: -20px;
+    height: 100%;
 }
 nav#nav1{
-    display: flex;
-    justify-content: space-between;
+    margin: 82px 8vw 0 0;
 }
 header h1{
     color: #c5c5c5;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2.2em;
-    margin: 8vh 0 0 12vw;
+    margin: 0 0 0 12vw;
+    padding: 11vh 0 0 0;
 }
-
 nav#nav1 > ul{
-    margin: 10vh 3vw 0px 0px;
+    margin: 0 0 0 0px;
+    padding: 0 0 0 0;
 }
 nav#nav1 > ul > li {
     list-style-type: none;
@@ -73,9 +76,9 @@ nav#nav1 a.efeito:hover::after{
 }
 div#conteudo0{
     margin-left: 12vw;
-    margin-top: 14vh;
+    margin-top: 13vh;
     width: 605px;
-    height: 250px;
+    height: 253px;
     border: 2px solid #c5c5c5;
 }
 div#conteudo0 > p{

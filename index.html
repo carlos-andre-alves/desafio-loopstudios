@@ -13,19 +13,19 @@
 <body onresize="mudouTamanho()">
     <header>
        <div id="fundo">
-      <nav id="nav1">
-         <h1>loopstudios</h1>
-         <i id="menu" class="fa-solid fa-bars" onclick="clickMenu()"></i>
-          <ul id="itens">
-                  <h2>loopstudios</h2>
-            <i id="menu, menu2" class="fa-solid fa-bars,n"  onclick="clickMenu()"></i>
-            <li><a href="#" class="efeito">About</a></li>
-            <li><a href="#" class="efeito">Events</a></li>
-            <li><a href="#" class="efeito">Products</a></li>
-            <li><a href="#" class="efeito">Support</a></li>
-            <li><a href="#" class="efeito">Login</a></li>
-          </ul>
-       </nav> 
+          <div class="container">
+             <h1>loopstudios</h1>
+             <i id="menu" class="fa-solid fa-bars" onclick="clickMenu()"></i>
+         <nav id="nav1" class="itens">
+             <ul>
+               <li><a href="#" class="efeito">About</a></li>
+               <li><a href="#" class="efeito">Events</a></li>
+               <li><a href="#" class="efeito">Products</a></li>
+               <li><a href="#" class="efeito">Support</a></li>
+               <li><a href="#" class="efeito">Login</a></li>
+             </ul>
+          </nav>
+      </div>
       <div id="conteudo0">
          <p>
             IMMERSIVE EXPERIENCES THAT DELIVER
@@ -102,7 +102,7 @@
 <script>
    function mudouTamanho(){ 
        if (window.innerWidth >= 768){
-           itens.style.display = 'inline'
+           itens.style.display = 'block'
        } else{
            itens.style.display = 'none'
        } 
@@ -110,10 +110,10 @@
    }
    
    function clickMenu(){
-       if (itens.style.display == 'inline') {
+       if (itens.style.display == 'block') {
            itens.style.display = 'none'
        } else{
-           itens.style.display = 'inline'
+           itens.style.display = 'block'
        }
    }
 </script>
