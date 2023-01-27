@@ -137,7 +137,7 @@
 
         display: grid;
         grid-template-rows: 21.4vh;
-        grid-template-columns: 65vw;
+        grid-template-columns: 75%;
         gap: 50px;
         align-content: center;
         justify-content: center;
@@ -145,8 +145,7 @@
     } 
     div.itens{
          height: 21.7vh;
-         width: 65vw;
-         min-width: 60vw;
+         width: 100%;
          cursor: pointer;
     }   
     div.itens p{
