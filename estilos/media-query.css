@@ -130,7 +130,7 @@
         width: 90px;
         height: 20px;
         margin: 40px auto 0 auto;
-
+        text-align: center;
     }
     div.conteudo2{
     
@@ -150,7 +150,7 @@
          cursor: pointer;
     }   
     div.itens p{
-         padding: 49px 25px 22px 22px;
+         padding: 8.7vh 25px 22px 22px;
 
     }
     
@@ -185,7 +185,7 @@
                                               /*FOOTER*/
 
 footer{
-    height: 450px;
+    height: 475px;
     background-color: black;
     margin-top: 150px;
     color: #c5c5c5;
@@ -229,15 +229,15 @@ p#rodape{
     div#conteudo0{
         margin-left: 12vw;
         margin-top: 13vh;
-        width: 605px;
-        height: 253px;
+        width: 530px;
+        height: 190px;
         border: 2px solid #c5c5c5;
     }
     div#conteudo0 > p{
         color: #c5c5c5;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 300;
-        font-size: 4.2em;
+        font-size: 3em;
         margin: 26px 0px 0px 36px;
     }
     div.conteudo2{
