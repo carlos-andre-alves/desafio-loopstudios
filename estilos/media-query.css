@@ -136,20 +136,20 @@
     
 
         display: grid;
-        grid-template-rows: 21.4vh;
-        grid-template-columns: 75%;
+        grid-template-rows: 123.9px;
+        grid-template-columns: 86%;
         gap: 50px;
         align-content: center;
         justify-content: center;
         
     } 
     div.itens{
-         height: 21.7vh;
+         height: 123.9px;
          width: 100%;
          cursor: pointer;
     }   
     div.itens p{
-         padding: 8.7vh 25px 22px 22px;
+         padding: 50px 25px 22px 22px;
 
     }
     
